@@ -9,14 +9,14 @@
     <nodes xmi:type="eer:Attribute" xmi:id="_kopSICbZEey_t-SvGweygw" name="ID" type="DISCRIMINATOR" AttributeLinkTarget="_qXd2ICbZEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Entity" xmi:id="_eMCloCbaEey_t-SvGweygw" name="Atendente" relationshipLink="_FmKmoCbbEey_t-SvGweygw" inheritanceSL="_1N3GACbbEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Entity" xmi:id="_txzZkCbaEey_t-SvGweygw" name="Cliente" relationshipLink="_LPaHECbbEey_t-SvGweygw"/>
-    <nodes xmi:type="eer:Entity" xmi:id="_t2hhgCbaEey_t-SvGweygw" name="tipo_do_produto" AttributeLinkSource="_TURDcCbdEey_t-SvGweygw" relationshipLink="_Kk7msCbbEey_t-SvGweygw"/>
+    <nodes xmi:type="eer:Entity" xmi:id="_t2hhgCbaEey_t-SvGweygw" name="Produto" AttributeLinkSource="_TURDcCbdEey_t-SvGweygw" relationshipLink="_Kk7msCbbEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Relationship" xmi:id="_CTgjECbbEey_t-SvGweygw" name="Vende" relationshipLink="_FmKmoCbbEey_t-SvGweygw _Kk7msCbbEey_t-SvGweygw _LPaHECbbEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Entity" xmi:id="_SsEF4CbbEey_t-SvGweygw" name="Gerente" inheritanceSL="_0akn4CbbEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Entity" xmi:id="_V0Hb8CbbEey_t-SvGweygw" name="Funcionário" AttributeLinkSource="_FlRj4CbdEey_t-SvGweygw" relationshipLink="_xHFBYCbcEey_t-SvGweygw" inheritanceGL="_4F_JsCbbEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Inheritance" xmi:id="_gGPMACbbEey_t-SvGweygw" disjointness="DISJOINT" inheritanceGL="_4F_JsCbbEey_t-SvGweygw" inheritanceSL="_0akn4CbbEey_t-SvGweygw _1N3GACbbEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Relationship" xmi:id="_nu1foCbcEey_t-SvGweygw" name="trabalha" relationshipLink="_vz9zsCbcEey_t-SvGweygw _xHFBYCbcEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_4mSk8CbcEey_t-SvGweygw" name="CPF" type="IDENTIFIER" AttributeLinkTarget="_FlRj4CbdEey_t-SvGweygw"/>
-    <nodes xmi:type="eer:Attribute" xmi:id="_MNqNICbdEey_t-SvGweygw" name="Código_barras" type="IDENTIFIER" AttributeLinkTarget="_TURDcCbdEey_t-SvGweygw"/>
+    <nodes xmi:type="eer:Attribute" xmi:id="_MNqNICbdEey_t-SvGweygw" name="Marca" AttributeLinkTarget="_TURDcCbdEey_t-SvGweygw"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_G5jMACbZEey_t-SvGweygw" source="_USuCACbYEey_t-SvGweygw" target="_4dz7MCbYEey_t-SvGweygw"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_I_eWsCbZEey_t-SvGweygw" source="_USuCACbYEey_t-SvGweygw" target="_43veICbYEey_t-SvGweygw"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_bybfYCbZEey_t-SvGweygw" source="_USuCACbYEey_t-SvGweygw" target="_XzlEMCbZEey_t-SvGweygw"/>
@@ -95,7 +95,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_t2iIkSbaEey_t-SvGweygw"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_t2iIkibaEey_t-SvGweygw" fontName="Ubuntu"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_t2iIkybaEey_t-SvGweygw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t2iIlCbaEey_t-SvGweygw" x="1510" y="325" width="150" height="60"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t2iIlCbaEey_t-SvGweygw" x="1530" y="325" width="96" height="60"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_CTkNcCbbEey_t-SvGweygw" type="2003" element="_CTgjECbbEey_t-SvGweygw">
       <children xmi:type="notation:DecorationNode" xmi:id="_CTk0gCbbEey_t-SvGweygw" type="5004"/>

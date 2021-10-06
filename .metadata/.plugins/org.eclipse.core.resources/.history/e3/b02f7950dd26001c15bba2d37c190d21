@@ -9,14 +9,13 @@
     <nodes xmi:type="eer:Attribute" xmi:id="_kopSICbZEey_t-SvGweygw" name="ID" type="DISCRIMINATOR" AttributeLinkTarget="_qXd2ICbZEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Entity" xmi:id="_eMCloCbaEey_t-SvGweygw" name="Atendente" relationshipLink="_FmKmoCbbEey_t-SvGweygw" inheritanceSL="_1N3GACbbEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Entity" xmi:id="_txzZkCbaEey_t-SvGweygw" name="Cliente" relationshipLink="_LPaHECbbEey_t-SvGweygw"/>
-    <nodes xmi:type="eer:Entity" xmi:id="_t2hhgCbaEey_t-SvGweygw" name="tipo_do_produto" AttributeLinkSource="_TURDcCbdEey_t-SvGweygw" relationshipLink="_Kk7msCbbEey_t-SvGweygw"/>
+    <nodes xmi:type="eer:Entity" xmi:id="_t2hhgCbaEey_t-SvGweygw" name="Produto" relationshipLink="_Kk7msCbbEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Relationship" xmi:id="_CTgjECbbEey_t-SvGweygw" name="Vende" relationshipLink="_FmKmoCbbEey_t-SvGweygw _Kk7msCbbEey_t-SvGweygw _LPaHECbbEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Entity" xmi:id="_SsEF4CbbEey_t-SvGweygw" name="Gerente" inheritanceSL="_0akn4CbbEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Entity" xmi:id="_V0Hb8CbbEey_t-SvGweygw" name="Funcionário" AttributeLinkSource="_FlRj4CbdEey_t-SvGweygw" relationshipLink="_xHFBYCbcEey_t-SvGweygw" inheritanceGL="_4F_JsCbbEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Inheritance" xmi:id="_gGPMACbbEey_t-SvGweygw" disjointness="DISJOINT" inheritanceGL="_4F_JsCbbEey_t-SvGweygw" inheritanceSL="_0akn4CbbEey_t-SvGweygw _1N3GACbbEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Relationship" xmi:id="_nu1foCbcEey_t-SvGweygw" name="trabalha" relationshipLink="_vz9zsCbcEey_t-SvGweygw _xHFBYCbcEey_t-SvGweygw"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_4mSk8CbcEey_t-SvGweygw" name="CPF" type="IDENTIFIER" AttributeLinkTarget="_FlRj4CbdEey_t-SvGweygw"/>
-    <nodes xmi:type="eer:Attribute" xmi:id="_MNqNICbdEey_t-SvGweygw" name="Código_barras" type="IDENTIFIER" AttributeLinkTarget="_TURDcCbdEey_t-SvGweygw"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_G5jMACbZEey_t-SvGweygw" source="_USuCACbYEey_t-SvGweygw" target="_4dz7MCbYEey_t-SvGweygw"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_I_eWsCbZEey_t-SvGweygw" source="_USuCACbYEey_t-SvGweygw" target="_43veICbYEey_t-SvGweygw"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_bybfYCbZEey_t-SvGweygw" source="_USuCACbYEey_t-SvGweygw" target="_XzlEMCbZEey_t-SvGweygw"/>
@@ -31,7 +30,6 @@
     <links xmi:type="eer:RelationshipLink" xmi:id="_vz9zsCbcEey_t-SvGweygw" source="_U306MCbYEey_t-SvGweygw" target="_nu1foCbcEey_t-SvGweygw"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_xHFBYCbcEey_t-SvGweygw" source="_V0Hb8CbbEey_t-SvGweygw" target="_nu1foCbcEey_t-SvGweygw" cardinality="MANY"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_FlRj4CbdEey_t-SvGweygw" source="_V0Hb8CbbEey_t-SvGweygw" target="_4mSk8CbcEey_t-SvGweygw"/>
-    <links xmi:type="eer:AttributeLink" xmi:id="_TURDcCbdEey_t-SvGweygw" source="_t2hhgCbaEey_t-SvGweygw" target="_MNqNICbdEey_t-SvGweygw"/>
   </eer:Schema>
   <notation:Diagram xmi:id="_tg8-UCbTEey_t-SvGweygw" type="Eer" element="_tgLiQCbTEey_t-SvGweygw" name="esboco.eer" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_US0IoCbYEey_t-SvGweygw" type="2001" element="_USuCACbYEey_t-SvGweygw">
@@ -95,7 +93,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_t2iIkSbaEey_t-SvGweygw"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_t2iIkibaEey_t-SvGweygw" fontName="Ubuntu"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_t2iIkybaEey_t-SvGweygw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t2iIlCbaEey_t-SvGweygw" x="1510" y="325" width="150" height="60"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t2iIlCbaEey_t-SvGweygw" x="1530" y="550" width="96" height="60"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_CTkNcCbbEey_t-SvGweygw" type="2003" element="_CTgjECbbEey_t-SvGweygw">
       <children xmi:type="notation:DecorationNode" xmi:id="_CTk0gCbbEey_t-SvGweygw" type="5004"/>
@@ -138,13 +136,6 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_4mTzEibcEey_t-SvGweygw" fontName="Ubuntu"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_4mTzEybcEey_t-SvGweygw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4mTzFCbcEey_t-SvGweygw" x="1380" y="320"/>
-    </children>
-    <children xmi:type="notation:Node" xmi:id="_MNrbQCbdEey_t-SvGweygw" type="2004" element="_MNqNICbdEey_t-SvGweygw">
-      <children xmi:type="notation:DecorationNode" xmi:id="_MNrbRSbdEey_t-SvGweygw" type="5005"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_MNrbQSbdEey_t-SvGweygw"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_MNrbQibdEey_t-SvGweygw" fontName="Ubuntu"/>
-      <styles xmi:type="notation:FillStyle" xmi:id="_MNrbQybdEey_t-SvGweygw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MNrbRCbdEey_t-SvGweygw" x="1525" y="215" width="109" height="44"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_tg8-USbTEey_t-SvGweygw"/>
     <edges xmi:type="notation:Edge" xmi:id="_Xz5NQCbZEey_t-SvGweygw" type="4007" element="_G5jMACbZEey_t-SvGweygw" source="_US0IoCbYEey_t-SvGweygw" target="_4d1wYCbYEey_t-SvGweygw">
@@ -272,15 +263,12 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_4mbH0ibcEey_t-SvGweygw" fontName="Ubuntu"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4mbH0ybcEey_t-SvGweygw" points="[1, -28, 0, 100]$[0, -104, -1, 24]"/>
     </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_MNywACbdEey_t-SvGweygw" type="4007" element="_FlRj4CbdEey_t-SvGweygw" source="_V0IDACbbEey_t-SvGweygw" target="_4mTzECbcEey_t-SvGweygw">
-      <styles xmi:type="notation:RoutingStyle" xmi:id="_MNywASbdEey_t-SvGweygw"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_MNywAibdEey_t-SvGweygw" fontName="Ubuntu"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MNywAybdEey_t-SvGweygw" points="[80, -14, -146, 24]$[177, -30, -49, 8]"/>
-    </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_TURqgCbdEey_t-SvGweygw" type="4007" element="_TURDcCbdEey_t-SvGweygw" source="_MNrbQCbdEey_t-SvGweygw" target="_t2iIkCbaEey_t-SvGweygw">
-      <styles xmi:type="notation:RoutingStyle" xmi:id="_TURqgSbdEey_t-SvGweygw"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_TURqgibdEey_t-SvGweygw" fontName="Ubuntu"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TURqgybdEey_t-SvGweygw" points="[-2, 27, 0, -120]$[-2, 110, 0, -37]"/>
+    <edges xmi:type="notation:Edge" xmi:id="_FlSK8CbdEey_t-SvGweygw" type="4007" element="_FlRj4CbdEey_t-SvGweygw" source="_4mTzECbcEey_t-SvGweygw" target="_V0IDACbbEey_t-SvGweygw">
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_FlSK8SbdEey_t-SvGweygw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_FlSK8ibdEey_t-SvGweygw" fontName="Ubuntu"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FlSK8ybdEey_t-SvGweygw" points="[-10, 4, 114, -40]$[-123, 68, 1, 24]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FlXDcCbdEey_t-SvGweygw" id="(0.1,0.44)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FlXDcSbdEey_t-SvGweygw" id="(0.859375,0.5777777777777777)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
